@@ -1,12 +1,7 @@
-import { Fragment } from "react";
 import classes from "./Card.module.css";
 
 const Card = (props) => {
-  return (
-    <Fragment>
-      <div className={classes.card}>{props.children}</div>
-    </Fragment>
-  );
+  return <div className={classes.card}>{props.children}</div>;
 };
 
 export default Card;
